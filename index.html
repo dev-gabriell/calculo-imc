@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="center">
+        <div class="form">
+            <div class="inputs">
+                <p>NOME:
+                    <input type="text" id="name" placeholder="Digite seu nome">
+                </p>
+                <p> PESO(Kg):
+                    <input type="number" id="peso" placeholder="Digite seu peso">
+                </p>
+                <p> ALTURA(cm):
+                    <input type="number" id="altura" placeholder="Digite sua altura">
+                </p>
+                <p><input type="button" id="botao" value="Cálcular" onclick="calcular()"></p>
+            </div>
+        </div>
+        
+        <div class="calc" id="calc">
+            <h2 id="calc-name">CÁLCULO<br>IMC</h2>
+            <p id="classe"></p>
+            <div class="image" id="image"></div>
+        </div>
+   </div>     
+   <div>
+    <footer class="foot">
+        <a href="https://www.instagram.com/eii_biel3/" target="_blank" ><img class="logo-insta" src="Image/Logo-Instagram-02.png" alt="" ></a>
+        <a href="https://www.linkedin.com/in/gabriel-sousa-a7654927a/" target="_blank" > <img class="logo-link" src="Image/Logo-Link.png" alt=""></a>
+    </footer>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
